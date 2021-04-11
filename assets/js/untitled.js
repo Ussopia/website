@@ -28,5 +28,4 @@ function toggleAccordion() {
     this.setAttribute('aria-expanded', 'true');
   }
 }
-
 items.forEach(item => item.addEventListener('click', toggleAccordion));
